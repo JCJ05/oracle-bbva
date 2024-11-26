@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<transaction xmlns="http://www.w3schools.com" transactionName="PUTAT083" application="PUTA" version="01" country="PE" language="ES">
+	<paramsIn>
+		<dto order="1" name="EntityCustomer" mandatory="1" package="com.bbva.puta.dto.tb.sub1.sub2.CustomerDTO" artifactId="PUTAC083">
+			<parameter order="1" name="customerId" mandatory="1" type="String" size="60"/>
+			<parameter order="2" name="firstName" mandatory="1" type="String" size="60"/>
+			<parameter order="3" name="lastName" mandatory="1" type="String" size="60"/>
+			<parameter order="4" name="gender" mandatory="0" type="String" size="1"/>
+			<parameter order="5" name="documentNumber" mandatory="1" type="String" size="16"/>
+			<parameter order="6" name="documentType" mandatory="1" type="String" size="30"/>
+			<parameter order="7" name="birthDate" mandatory="0" type="Date (YYYY-MM-DD)" size="0"/>
+			<parameter order="8" name="address" mandatory="0" type="String" size="200"/>
+			<parameter order="9" name="nationality" mandatory="0" type="String" size="100"/>
+			<parameter order="10" name="email" mandatory="0" type="String" size=" 200"/>
+
+		</dto>
+	</paramsIn>
+	<paramsOut/>
+	<description>Create Customer</description>
+</transaction>
